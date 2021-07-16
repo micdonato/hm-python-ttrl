@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "hm-python-ttrl"
+version = "0.1.0"
+description = "Learning poetry"
+license = "proprietary"
+readme = "README.md"
+homepage = "https://github.com/micdonato/hm-python-ttrl"
+repository = "https://github.com/micdonato/hm-python-ttrl"
+authors = ["michele donato <michele.donato@freenome.com>"]
+keywords = ["hypermodern", "python", "poetry", "tutorial"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.1"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+zubbola = "hm_python_ttrl.console:main"
