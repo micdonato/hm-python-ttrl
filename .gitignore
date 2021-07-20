@@ -1,1 +1,10 @@
 .DS_Store
+.coverage
+__pycache__/noxfile.cpython-38.pyc
+src/hm_python_ttrl/hypermodern.code-workspace
+src/hm_python_ttrl/__pycache__/console.cpython-38.pyc
+src/hm_python_ttrl/__pycache__/wikipedia.cpython-38.pyc
+tests/__pycache__/__init__.cpython-38.pyc
+tests/__pycache__/test_console.cpython-38-pytest-6.2.4.pyc
+src/hm_python_ttrl/__pycache__/console.cpython-38.pyc
+src/hm_python_ttrl/__pycache__/console.cpython-38.pyc
