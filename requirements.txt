@@ -8,8 +8,6 @@ cycler==0.10.0
 decorator==4.4.2
 defusedxml==0.6.0
 entrypoints==0.3
-freenome-fhir==20210129.1
-lims_api==3.4.2
 idna==2.9
 ipykernel==5.1.4
 ipython==7.13.0
