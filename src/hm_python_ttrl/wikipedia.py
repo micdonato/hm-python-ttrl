@@ -1,6 +1,8 @@
 import requests
+import click
 
 API_URL = "https://en.wikipedia.org/api/rest_v1/page/random/summary"
+
 
 def random_page():
     try:
