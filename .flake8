@@ -1,0 +1,14 @@
+# the 'select' line is the one that enables the plugins
+[flake8]
+select = BLK,C,E,F,W  # BLK is black's warnings
+ignore = E203,W503  # these warnings do not align well with black
+max-complexity = 10
+
+; # should I want to use flake8-import
+; # the 'select' line is the one that enables the plugins
+; [flake8]
+; select = BLK,C,E,I,F,W  # BLK is black's warnings
+; ignore = E203,W503  # these warnings do not align well with black
+; max-complexity = 10
+; application-import-names = hm_python_ttrl,tests
+; import-order-style = google
