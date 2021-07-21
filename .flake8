@@ -1,7 +1,10 @@
 # the 'select' line is the one that enables the plugins
+# asserts are flagged by bandit (Security errors)
+# some errors and warnings do not align well with black and bugbear
 [flake8]
-select = BLK,C,E,F,W  # BLK is black's warnings
-ignore = E203,W503  # these warnings do not align well with black
+select = B,B9,BLK,C,E,F,W,S
+ignore = E203,E501,W503  
+per-file-ignores = tests/*:S101 
 max-complexity = 10
 
 ; # should I want to use flake8-import

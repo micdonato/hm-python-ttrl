@@ -20,7 +20,13 @@ locations = "src", "tests", "noxfile.py"
 @nox.session(python=["3.8"])
 def lint(session):
     args = session.posargs or locations
-    session.install("flake8", "flake8-black", "flake8-import")
+    session.install(
+        "flake8",
+        "flake8-black",
+        "flake8-bugbear",
+        "flake8-bandit",
+    )
+    # session.install("flake8", "flake8-black", "flake8-import")
     session.run("flake8", *args)
 
 
